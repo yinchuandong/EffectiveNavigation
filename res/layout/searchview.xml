@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:iconifiedByDefault="true"
+    android:background="@color/bg"
+    android:queryHint="请搜索"
+    
+    >
+    
+</SearchView>

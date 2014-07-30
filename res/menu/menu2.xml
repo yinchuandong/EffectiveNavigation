@@ -1,0 +1,41 @@
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     >
+	<item android:id="@+id/action_search"
+          android:title="搜索"
+          android:icon="@drawable/search_white"
+          android:showAsAction="always|withText|collapseActionView"
+          android:actionViewClass="android.widget.SearchView" />
+	<item 
+	    android:id="@+id/action_share"
+	    android:title="分享"
+	    android:showAsAction="never|withText"
+	    android:actionProviderClass="android.widget.ShareActionProvider"
+	    />
+	<item android:id="@+id/action_alarm"
+          android:title="铃声"
+          android:icon="@drawable/alarm_white"
+          android:showAsAction="ifRoom|collapseActionView|withText"
+           />
+	<item 
+	    android:id="@+id/action_overflow"
+	    android:showAsAction="always"
+	    android:actionLayout="@layout/shareview"
+	    >
+	    <menu >
+	        <item 
+	            android:id="@+id/sub1"
+	            android:title="sub1"
+	            android:icon="@drawable/ic_launcher"
+	            />
+	        
+	        <item 
+			    android:id="@+id/action_share2"
+			    android:title="分享"
+			    android:icon="@drawable/share_orange"
+			    android:showAsAction="never|withText"
+			    android:actionProviderClass="android.widget.ShareActionProvider"
+			    />
+	    </menu>
+	</item>
+</menu>
